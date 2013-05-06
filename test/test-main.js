@@ -1,6 +1,9 @@
-var tests = Object.keys(window.__karma__.files).filter(function (file) {
-      return /Spec\.js$/.test(file);
-});
+var tests = [];
+for (var file in window.__karma__.files) {
+    if (/Spec\.js$/.test(file)) {
+        tests.push(file);
+    }
+}
 
 requirejs.config({
     // Karma serves files from '/base'

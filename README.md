@@ -47,9 +47,9 @@ Choose "yes" for Require.js.
 
 For the question *"Which files do you want to include with &lt;script&gt;
 tag?"*, we need to choose all files which are *not* loaded by Require.js.
-Usually you'll only need to include your `test-main.js` file, which has
-the same role for your tests as `main.js` has for your app when using
-Require.js.
+Usually you'll only need to include your `test/test-main.js` file, which
+has the same role for your tests as `main.js` has for your app when
+using Require.js.
 
 For the qustion *"Which files do you want to test?"*, we choose all the
 files we want to load with Require.js. For this example we'll need:
@@ -111,7 +111,7 @@ array we find all our test files.
 
 Now we can tell Require.js to load our tests, which must be done
 asynchronously as dependencies must be fetched before the tests are run.
-The `test/main-test.js` file ends up looking like this:
+The `test/test-main.js` file ends up looking like this:
 
 ```javascript
 var tests = [];

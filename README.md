@@ -1,3 +1,5 @@
+# THIS REPO IS OUT OF DATE. IF YOU WANT TO MAINTAIN IT, PLEASE CONTACT ME VIA EMAIL.
+
 Testing Require.js code with Karma
 ==================================
 
